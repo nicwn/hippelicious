@@ -37,9 +37,6 @@
     </div>
   </div>
 
-  <div id='utility'>
-  </div>
-
   <?php if (!empty($banner)): ?>
     <div id='banner'><div class='banner-wrapper clear-block'><?php print $banner ?></div></div>
   <?php endif; ?>
