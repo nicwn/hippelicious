@@ -14,8 +14,9 @@ stylesheets[screen][] = "css/forms.css"
 
 scripts[] = "js/theme.js"
 
+regions[banner] = "Banner"
 regions[lead] = "Lead"
 regions[content] = "Content"
-regions[right] = "Sidebar"
+regions[right] = "Right"
 
 features[] = ""

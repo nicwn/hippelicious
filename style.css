@@ -352,13 +352,20 @@ div.block ul.menu li li li li li li a { padding-left:60px; }
 div.block ul.menu li li li li li li li a { padding-left:70px; }
 div.block ul.menu li li li li li li li li a { padding-left:80px; }
 
-/* Flag sidebar block */
+/* Idea blocks */
 #block-hippel_idea-hippel-idea-flag h2.block-title {
   display:none;
   }
 
-#block-hippel_idea-hippel-idea-flag a.flag {
+#block-hippel_idea-hippel-idea-flag a.flag, #block-hippel_idea-hippel-idea-ideas-banner {
   float:left;
+  }
+
+#block-hippel_idea-hippel-idea-submit-idea a {
+  float: right;
+}
+
+#block-hippel_idea-hippel-idea-flag a.flag, #block-hippel_idea-hippel-idea-submit-idea a {
   width:120px;
   height:20px;
   padding:10px 10px;
@@ -374,6 +381,36 @@ div.block ul.menu li li li li li li li li a { padding-left:80px; }
 span.flag-throbber {
   display:none;
   }
+
+#block-hippel_idea-hippel-idea-ideas-banner {
+  width:600px;
+  height:20px;
+  padding:10px 10px;
+  border:1px solid #ddd;
+  color:#333;
+  font-weight:bold;
+  font-size:14px;
+  background:#f8f8f8;
+  text-decoration:none;
+}
+
+div.field-field-idea-tag div.field-items div.field-item a {
+  color: #fff;
+  display:inline-block;
+  padding:2px 4px;
+  background-color:#f86600;
+  border: 1px solid#ccc;
+  }
+
+#block-menu-menu-idea-grid ul li, #block-menu-menu-idea-list ul li {
+  display:inline;;
+}
+
+#block-menu-menu-idea-grid a.active, #block-menu-menu-idea-list a.active {
+  color:#333;
+  text-decoration: none;
+}
+
 
 /**
  * Nodes ==============================================================

@@ -38,8 +38,11 @@
   </div>
 
   <div id='utility'>
-    <?php if (!empty($breadcrumb)) print $breadcrumb ?>
   </div>
+
+  <?php if (!empty($banner)): ?>
+    <div id='banner'><div class='banner-wrapper clear-block'><?php print $banner ?></div></div>
+  <?php endif; ?>
 
   <div id='page'>
     <?php if ($title || $tabs): ?>
