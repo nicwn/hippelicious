@@ -18,5 +18,6 @@ regions[banner] = "Banner"
 regions[lead] = "Lead"
 regions[content] = "Content"
 regions[right] = "Right"
+regions[footer] = "Footer"
 
 features[] = ""
