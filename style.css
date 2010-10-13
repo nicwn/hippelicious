@@ -220,13 +220,13 @@ div.left div.admin-panel { margin-right:10px; }
 
 #footer ul.menu {
 	display:block;
-	padding:3px 0;
-	background:#808080;
+	padding:3px 7px;
+	background:#CCC;
+	text-align:left;
 }
 	
 #footer ul.menu li {
-	display:block;
-	float:left;
+	display:inline-block;
 	padding: 0 10px 0 0;
 }
 
